@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BotMovement.cs" />
     <Compile Include="Assets\Scripts\GetUp.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\spin_body.cs" />
     <Compile Include="Assets\Scripts\keyBoardControl.cs" />
     <Compile Include="Assets\Scripts\spin.cs" />

@@ -13,7 +13,15 @@ public class BotMovement : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.destination = platform.transform.position;
+        if (platform != null)
+        {
+            agent.destination = platform.transform.position;
+        }
+        else
+        {
+            agent.destination = finish.transform.position;
+            crossed = true;
+        }
     }
     private void Update()
     {
